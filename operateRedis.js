@@ -45,7 +45,7 @@ export class operateRedis extends plugin {
                 this.finish('enterKey')
                 return true
             default:
-                e.reply(`暂不支持类型${this.e.msg}`)
+                e.reply(`暂不支持类型${data}`)
                 this.finish('enterKey')
                 return true
         }
